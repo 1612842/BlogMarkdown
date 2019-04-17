@@ -1,0 +1,70 @@
+baseurl = "https://conglethanh.github.io"
+
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
+title = "Blog"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+
+
+[Params]
+  homeTitle = "Hi, I'm Công LT" # Set a different text for the header on the home page
+  subtitle = "Work hard - Play harder"
+  logo = "img/avatar-icon.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+[[Params.bigimg]]
+  src = "img/triangle.jpg"
+  desc = "Triangle"
+[[Params.bigimg]]
+  src = "img/sphere.jpg"
+  desc = "Sphere"
+  # position: see values of CSS background-position.
+  position = "center top"
+[[Params.bigimg]]
+  src = "img/hexagon.jpg"
+  desc = "Hexagon"
+
+[Author]
+  name = "Lê Thành Công"
+  website = "conglethanh.github.com"
+  email = "thanhcong.le1108@gmail.com"
+  facebook = "cong.le.98lhp"
+  github = "conglethanh"
+  instagram = "cong.le.98lhp"
+[[menu.main]]
+    name = "Home"
+    url = "post/small-talk"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
+
